@@ -1,0 +1,37 @@
+/* Main Navigation */
+nav {
+	width: 95%;
+	height: 60px;
+	background: #274695;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	font-size: 14px;
+	padding: 0 2.5%;
+	z-index: 10000;}
+	nav #logo { 
+		display: inline-block;
+		border: solid 1px #ffffff;
+		position: relative;
+		top: 10px;
+		padding: 4px 0;
+		width: 100px;
+		text-align: center;
+		font-size: 22px;}
+	nav ul {
+		width: 835px;
+		height: 100%;
+		overflow: hidden;
+		text-align: right;
+		display: inline-block;
+		float: right;}
+		nav li {
+			width: 138px;
+			display: inline-block;
+			float: left;	
+			text-align: center;}
+			nav li a:hover { text-decoration: underline; }
+			nav li a, #pull { 
+				text-decoration: none;
+				display: block;
+				padding: 15%;}

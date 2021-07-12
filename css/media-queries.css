@@ -1,0 +1,140 @@
+@media screen and (max-width: 1450px) {
+	#generic #blue-tile h5 { 
+		margin: 0px auto;
+		float: none;
+		width: 180px;}
+	#generic #blue-points {
+		width: 570px;
+		float: none;
+		overflow: hidden;
+		margin: 0 auto;}
+		
+	#generic #blue-tile p {
+		width: 100%;
+		margin: 0;}	
+	#generic #blue-tile p:first-child { margin: 20px 0 0 0; }
+	#generic #blue-points { width: 90%; }		
+}
+@media screen and (max-width: 1060px) {
+nav { 
+	border-bottom: 0; 
+	height:auto;
+	overflow: inherit;
+	padding: 1.5%;
+	width: 97%; }
+	nav #logo { top: 0; }
+    nav ul {  
+        display: none;  
+        height: auto;
+		width: 100%;
+		padding: 0;}  
+		nav ul li { width: 50%; }
+			nav li a, #pull { padding: 6%; }		
+			nav a#pull {  
+				display: block;   
+				width: 100%;  
+				position: relative;
+				padding: 0; }  
+				nav a#pull:after {  
+					content:"";  
+					background: url('../images/nav-icon.png') no-repeat;  
+					width: 30px;  
+					height: 30px;  
+					display: inline-block;  
+					position: absolute;  
+					right: 30px;
+					bottom: -2px;}  
+	#testimonial #blue-tile p { margin: 0; width: 100%; }
+	#testimonial #blue-points { border: none; width: 100%; margin-top: 0; min-width: 100%; padding-top: 20px; }	
+	#blue-tile h5 {
+		display: inline;
+		margin: 55px auto 0 auto;
+		text-align: center;
+		float: none;}
+	#blue-tile h5 { width: 100%; margin-top: 0; min-width: 100%; }			
+
+	.form input[name=name], .form input[name=mail] { width: 97.1%; margin-bottom: 2%; }    
+		.form input[name=mail] { margin-left: 0; }
+		
+	.form textarea { width: 94.4%; height: 135px; padding: 2.9%; }
+		.form textarea { margin-bottom: 2%; }	
+
+		.slider li h2 { top: 25%; }
+
+	body #home-title-container { width: 830px; }
+	.hide { display: none; visibility: hidden; }
+
+
+	#generic #grey-tile article img
+	 { width: 100%; height: auto; }
+
+	#generic #grey-tile article p {
+		width: 100%;
+		margin: 0;
+	}
+
+}
+
+@media screen and (max-width: 860px) {
+		
+		/* Gallery & Service */
+			body #category ul li span { font-size: 16px; } 
+				 body #category ul li, #open ul li { width: 50%; }
+	body #home-title-container { width: 60%; }
+	#home-title h1 { font-size: 32px; }
+	#home-title img { display: none; visibility: hidden; }
+}
+
+@media screen and (max-width: 790px) {	
+		#grey-tile article img, #grey-tile article p, #grey-tile { 	float: none; display: block; margin: 0 auto; }
+			#grey-tile article img { margin-bottom: 25px; }
+			
+			#white-tile p, #grey-tile article { width: 90%; } 			
+			footer article p { font-size: 12px; }
+				footer article, footer .footer-margin { width: 50%; margin: 0; margin-top: 25px; }
+				.right { width: 100%; margin: 0 auto; display: block; clear: both; float: none; }
+				.hide { display: none; visibility: none; }		
+				
+				.form { width: 85%; }	
+					.form input[type=submit] { font-size: 18px; }
+					
+		#slider-nav .left_arrow, #slider-nav .right_arrow { display: none; visibility: hidden; }
+
+		.slider li h2 { font-size: 18px; top: 32%; }						
+}
+@media screen and (max-width: 550px) {
+	nav li a, #pull { padding: 12%;	}
+		body #category ul li, #open ul li { width: 100%; }
+		.slider_container { display: none; visibility: hidden; }
+
+	#category ul #text { padding: 23%; }
+
+body #home-title-container { width: 63%; }
+	#home-title h1 { font-size: 20px; }
+	#home-title p { font-size: 16px; }
+}	
+@media screen and (max-width: 320px) {
+	body, #testimonial #grey-tile p { font-size: 12px; }
+	body, nav { min-width: 300px; }	
+			#home-title { padding: 105px 0 45px 0; }
+			#white-tile h3, #white-tile h1, #blue-tile h5 { font-size: 20px; }	
+				#white-tile h3,#white-tile h1 { width: 105px; }
+				#testimonial #white-tile h1 { width: 145px; }
+			#home-title h1 { font-size: 18px; }
+			#home-title p { font-size: 16px; }
+			section, footer { padding: 45px 0; }
+			#white-tile p, #grey-tile article { margin: 30px auto; font-size: 12px; width: 100%; }
+				body #grey-tile article { margin: 0 auto; }
+				#white-tile p, #grey-tile article { margin: 30px auto; font-size: 12px; width: 90%; } 
+	nav li a, #pull { padding: 15%;	}				
+.right { width: 90%; }				
+
+footer article, footer .footer-margin {
+width: 41%;
+margin: 25px 0 0 15px;}
+
+#white-tile .contact { width: 125px; }
+
+body #home-title-container { width: 80%; }
+
+}

@@ -1,0 +1,8 @@
+html, body { background: #f2f2f2 !important; }
+
+#IE-container { width: 1000px; margin: 0 auto; }
+	body nav { width: 950px; padding: 0 25px 0 25px; }
+		body nav #logo { top: -23px; }
+ 		body nav ul { float: none; display: inline-block; }
+
+ body .form { width: 80%; }
